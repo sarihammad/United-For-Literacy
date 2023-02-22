@@ -1,0 +1,1 @@
+import{a as e,o as n,b as t,e as s,f as _}from"./entry.ed3e991b.js";const a={},d={class:"bg-green-500 rounded px-2 py-1 text-white mb-2"};function i(c,o){return n(),t("div",d," This is an alert component ")}const f=e(a,[["render",i]]),p={};function x(c,o){const r=f;return n(),t("div",null,[s(r),_(" index page ")])}const m=e(p,[["render",x]]);export{m as default};
