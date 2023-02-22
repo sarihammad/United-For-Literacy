@@ -1,0 +1,138 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+
+<template> 
+        <div id="sidebar" class= " w-64 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-150 ease-in-out" >
+            <nav >
+                <NuxtLink to="/"><img src="../assets/header-logo.png" alt="logo" class="w-10/12 mt-6">
+                </NuxtLink>
+                <div class="mt-10 mb-10">
+                    <ul class="list-none">
+                    <NuxtLink to="/"><li class="my-1 mx-2 p-3 flex">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z"
+                            ></path>
+                        </svg>
+                        Home</li></NuxtLink>
+                    <NuxtLink to=""><li class="my-1 mx-2 p-3 flex">
+                        <svg
+                            class="mr-3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5em"
+                            height="1.5em"
+                            viewBox="0 0 256 256"
+                            >
+                            <path
+                                fill="currentColor"
+                                d="M216 56h-36v-8a28.1 28.1 0 0 0-28-28h-48a28.1 28.1 0 0 0-28 28v8H40a20.1 20.1 0 0 0-20 20v128a20.1 20.1 0 0 0 20 20h176a20.1 20.1 0 0 0 20-20V76a20.1 20.1 0 0 0-20-20Zm-116-8a4 4 0 0 1 4-4h48a4 4 0 0 1 4 4v8h-56Zm56 32v120h-56V80ZM44 80h32v120H44Zm168 120h-32V80h32Z"
+                            ></path>
+                            </svg>Programs</li></NuxtLink>
+                    <NuxtLink to="/resources"><li class="my-1 mx-2 p-3 flex">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M17.5 4.5c-1.95 0-4.05.4-5.5 1.5c-1.45-1.1-3.55-1.5-5.5-1.5c-1.45 0-2.99.22-4.28.79C1.49 5.62 1 6.33 1 7.14v11.28c0 1.3 1.22 2.26 2.48 1.94c.98-.25 2.02-.36 3.02-.36c1.56 0 3.22.26 4.56.92c.6.3 1.28.3 1.87 0c1.34-.67 3-.92 4.56-.92c1 0 2.04.11 3.02.36c1.26.33 2.48-.63 2.48-1.94V7.14c0-.81-.49-1.52-1.22-1.85c-1.28-.57-2.82-.79-4.27-.79zM21 17.23c0 .63-.58 1.09-1.2.98c-.75-.14-1.53-.2-2.3-.2c-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5c.92 0 1.83.09 2.7.28c.46.1.8.51.8.98v9.47z"
+                            ></path>
+                            <path fill="currentColor"
+                                d="M13.98 11.01c-.32 0-.61-.2-.71-.52c-.13-.39.09-.82.48-.94c1.54-.5 3.53-.66 5.36-.45c.41.05.71.42.66.83c-.05.41-.42.71-.83.66c-1.62-.19-3.39-.04-4.73.39c-.08.01-.16.03-.23.03zm0 2.66c-.32 0-.61-.2-.71-.52c-.13-.39.09-.82.48-.94c1.53-.5 3.53-.66 5.36-.45c.41.05.71.42.66.83c-.05.41-.42.71-.83.66c-1.62-.19-3.39-.04-4.73.39a.97.97 0 0 1-.23.03zm0 2.66c-.32 0-.61-.2-.71-.52c-.13-.39.09-.82.48-.94c1.53-.5 3.53-.66 5.36-.45c.41.05.71.42.66.83c-.05.41-.42.7-.83.66c-1.62-.19-3.39-.04-4.73.39a.97.97 0 0 1-.23.03z"
+                            ></path>
+                            </svg>Resources</li></NuxtLink>
+                    <NuxtLink to="/calendar"><li class="my-1 mx-2 p-3 flex">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+                            ></path>
+                        </svg>Calendar</li></NuxtLink>
+                    <NuxtLink to=""><li class="my-1 mx-2 p-3 flex">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M10 8v6l4.7 2.9l.8-1.2l-4-2.4V8z"
+                            ></path>
+                            <path fill="currentColor"
+                                d="M17.92 12A6.957 6.957 0 0 1 11 20c-3.9 0-7-3.1-7-7s3.1-7 7-7c.7 0 1.37.1 2 .29V4.23c-.64-.15-1.31-.23-2-.23c-5 0-9 4-9 9s4 9 9 9a8.963 8.963 0 0 0 8.94-10h-2.02z"
+                            ></path>
+                            <path
+                                fill="currentColor"
+                                d="M20 5V2h-2v3h-3v2h3v3h2V7h3V5z"
+                            ></path>
+                        </svg>Track Hours</li></NuxtLink>
+                    <NuxtLink to="/updates"><li class="my-1 mx-2 p-3 flex">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <g fill="none" fillRule="evenodd">
+                                <path
+                                d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"
+                                ></path>
+                                <path fill="currentColor"
+                                d="M15 19a2 2 0 0 1-1.85 1.995L13 21h-2a2 2 0 0 1-1.995-1.85L9 19h6ZM12 2a7 7 0 0 1 6.996 6.76L19 9v3.764l1.822 3.644a1.1 1.1 0 0 1-.869 1.586l-.115.006H4.162a1.1 1.1 0 0 1-1.03-1.487l.046-.105L5 12.764V9a7 7 0 0 1 7-7Zm0 2a5 5 0 0 0-4.995 4.783L7 9v3.764a2 2 0 0 1-.136.725l-.075.17L5.619 16h12.763l-1.17-2.342a2.002 2.002 0 0 1-.203-.709L17 12.764V9a5 5 0 0 0-5-5Z"
+                                ></path>
+                            </g>
+                        </svg>Notifications</li></NuxtLink>
+                    <NuxtLink to="/messages"><li class="my-1 mx-2 p-3 flex">
+                        <svg
+                            class="mr-3"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5em"
+                            height="1.5em"
+                            viewBox="0 0 256 256"
+                            >
+                            <path
+                                fill="currentColor"
+                                d="M128 20a108.1 108.1 0 0 0-95.5 158.5l-8.1 28.4a20 20 0 0 0 24.7 24.7l28.4-8.1A108 108 0 1 0 128 20Zm0 192a85.1 85.1 0 0 1-42.9-11.7a11 11 0 0 0-6.1-1.7a12.4 12.4 0 0 0-3.3.4l-26.2 7.5l7.5-26.2a11.9 11.9 0 0 0-1.3-9.4A85.1 85.1 0 0 1 44 128a84 84 0 1 1 84 84Zm44-104a12 12 0 0 1-12 12H96a12 12 0 0 1 0-24h64a12 12 0 0 1 12 12Zm0 40a12 12 0 0 1-12 12H96a12 12 0 0 1 0-24h64a12 12 0 0 1 12 12Z"
+                            ></path>
+                            </svg>Messages</li></NuxtLink>
+                    </ul>
+                </div>
+                    
+                <div class="mt-10">
+                    <ul>
+                    <NuxtLink to="/profile"><li class="my-1 mx-2 p-3 flex">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M5.85 17.1q1.275-.975 2.85-1.538Q10.275 15 12 15q1.725 0 3.3.562q1.575.563 2.85 1.538q.875-1.025 1.363-2.325Q20 13.475 20 12q0-3.325-2.337-5.663Q15.325 4 12 4T6.338 6.337Q4 8.675 4 12q0 1.475.488 2.775q.487 1.3 1.362 2.325ZM12 13q-1.475 0-2.488-1.012Q8.5 10.975 8.5 9.5t1.012-2.488Q10.525 6 12 6t2.488 1.012Q15.5 8.025 15.5 9.5t-1.012 2.488Q13.475 13 12 13Zm0 9q-2.075 0-3.9-.788q-1.825-.787-3.175-2.137q-1.35-1.35-2.137-3.175Q2 14.075 2 12t.788-3.9q.787-1.825 2.137-3.175q1.35-1.35 3.175-2.138Q9.925 2 12 2t3.9.787q1.825.788 3.175 2.138q1.35 1.35 2.137 3.175Q22 9.925 22 12t-.788 3.9q-.787 1.825-2.137 3.175q-1.35 1.35-3.175 2.137Q14.075 22 12 22Z"
+                            ></path>
+                        </svg>Profile</li></NuxtLink>
+                    <li class="my-1 mx-2 p-3">Log out</li>
+                    </ul>
+                </div>
+            </nav>
+        </div> 
+</template>
+
+<script >
+    export default{
+
+        mounted () {
+            const sidebar = document.getElementById('sidebar');
+            const button = document.getElementById('menuButton');
+            if(button && sidebar)
+            button.addEventListener("click", ()=>{
+                sidebar.classList.toggle("-translate-x-full");
+            });
+        },
+}
+</script>
+
+
+<style>
+    h1{
+      color: #00565a;
+      font-size: large;
+      font-weight: 700;
+    }
+
+    #sidebar{
+        background-color:#093254; 
+        color: white; 
+        overflow: scroll; 
+        scrollbar-width: 0px;
+        z-index: 1;
+    }
+    #sidebar::-webkit-scrollbar {
+        width: 0px;
+    }   
+    #sidebar ul li:hover, .active{
+      background-color: #054171;
+      border-radius: 10px;
+    }
+
+  </style>
+
