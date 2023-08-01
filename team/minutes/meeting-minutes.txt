@@ -1,0 +1,58 @@
+Date: Jan 29, 2023
+Meeting Type: Team Meeting
+- Introduced ourselves to the members of the team with a few ice-breaker questions
+- Discussed the roles and responsibilities of the team and our previous experiences working in a software development team
+- Established expectations as a teammate, discussed communication methods, best times to have team meetings etc.
+- Prepared questions to ask the United for Literacy organization during the first partner meeting
+- Worked on the questions pertaining to the “Teamwork” section in the Deliverable 1 document
+
+—---------------------------------------------------------------------------------------------------------------------
+
+Date: Jan 30, 2023
+Meeting Type: Partner Meeting
+-Introduction to partner organization and its representatives, Sathya and Leo.
+- The representatives explained the problems they are facing and what they have done so far to solve them.
+- Problems are: Lack of centralized information and communication platform and decline in volunteers.
+-Exchanged important information and links such as GitHub repositories, databases etc.
+
+Asked the representatives questions regarding the project. They are as follows:
+Q: Will the product be a continuation from the previous team? Or are we building the product from scratch?
+A: Continuation of the previous team’s project. Changing to desktop interface. Adding new features that the previous team was unable to work on due to time constraints. We have been given flexibility in our implementation designs.
+
+Q: What features do they want? Which ones do we want to do? (Feasible to complete given the time frame; interests, etc.) Elaborate on those features. Minimal expectations.
+A: Enter testimonials (what a volunteer, staff, learner learned about the program and it goes into the database). Enter volunteer hours and goes into the SalesForce database.
+
+Q: Arrange time for the second meeting (for proposal) with partners.
+A: Wednesday (Feb 8) at 10am
+
+Q: Expectations?
+A: Create an app (web app preferred). Access documents (manuals), supervisors can post notifications, admin features should be present. Volunteers can book and track their volunteer hours easily.
+
+
+- They wanted us to add in-app messaging so that volunteers and supervisors could communicate with one another
+- We requested further information on specific feature expectations which will be emailed to us by the partner in the upcoming days.
+
+—---------------------------------------------------------------------------------------------------------------------
+
+Date: Feb 1, 2023
+Meeting Type: Team Meeting
+- After meeting with our partner for the first time, we discussed how we were going to implement our web application
+
+- Received the following list of features to be potentially added:
+1. Academic programming, volunteers assignments, info + resources
+- Leverage OneDrive
+2. iFrame existing experiences (depending on auth availability)
+3. Programming Announcements: w/ notification level options
+4. Integration w/ External Calendars (should be easy)
+5. In-app messaging
+6. Other Announcements: different scopes, types, associations, opt-out
+7, Auth/Login
+- if can't do, the do testimonials/hours tracking directly via Salesforce API
+8. Non programming events
+
+- Talked through and decided upon what software and tools we would be using to create the front-end, back-end and database frameworks
+- We decided upon which features from the list above we would work on. Ruled out ones that did not seem feasible or were too complex for our abilities
+- Split the team into 2 groups: one handled the mockup design while the other worked on the document questions as well as the remaining work to be submitted in this phase
+- Worked on the first 5 Deliverable 1 questions
+
+—---------------------------------------------------------------------------------------------------------------------
