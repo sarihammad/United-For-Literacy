@@ -5,12 +5,16 @@
 A web application that acts as a centralized location for volunteers and employees of the United For Literacy organization to access important documentation and services that correspond to their daily activities. 
 
 ## Preview
+![x](https://github.com/sarihammad/United-For-Literacy/assets/63919507/71a6eefc-d2c0-41b3-8e96-328f18952b61)
 
-![Alt text](<assets/Screenshot 2023-12-11 at 14.58.56.png>)
-![Alt text](<assets/Screenshot 2023-12-11 at 14.57.17.png>)
-![Alt text](<assets/Screenshot 2023-12-11 at 14.56.23.png>)
-![Alt text](<assets/Screenshot 2023-12-11 at 14.59.25.png>)
-![Alt text](assets/unnamed.png)
+
+![Screenshot 2023-12-11 at 14 58 56](https://github.com/sarihammad/United-For-Literacy/assets/63919507/153a5af1-a5d1-414e-b254-fb63b4aad6ec)
+![Screenshot 2023-12-11 at 14 57 17](https://github.com/sarihammad/United-For-Literacy/assets/63919507/4ad7e2ac-f13f-4465-9ef2-0378c6a74775)
+![Screenshot 2023-12-11 at 14 56 23](https://github.com/sarihammad/United-For-Literacy/assets/63919507/4a57cdfa-5cbb-4fab-9044-bab6912094be)
+![289662981-58306a01-9320-4fa8-ab94-00ab1cdb02fe](https://github.com/sarihammad/United-For-Literacy/assets/63919507/f7e1dd67-d2f6-4ecd-86b5-0af9b28258df)
+
+
+
 
 ## Key Features
 Newly implemented features
