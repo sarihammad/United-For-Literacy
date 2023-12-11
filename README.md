@@ -1,11 +1,16 @@
-# Volunteer Engagement App (TEAM 12 - United for Literacy)
+# United for Literacy
 ​
 ## Description 
 
-​Our implementation is a web application that acts as a centralized location for volunteers and employees of the United For Literacy organization to access important documentation and services that correspond to their daily activities.
+A web application that acts as a centralized location for volunteers and employees of the United For Literacy organization to access important documentation and services that correspond to their daily activities. 
 
-The major problems that our partner, United For Literacy, is experiencing are that they do not have a centralized location to exchange vital information between the members of the organization such as volunteers, staff, and administrators. Their current process is tedious and time-consuming, consequently leading to a decline in volunteers working for the organization. Therefore, the application aims to simplify this process by introducing an efficient method to access data relating to the organization’s activities.
+## Preview
 
+![Alt text](<assets/Screenshot 2023-12-11 at 14.58.56.png>)
+![Alt text](<assets/Screenshot 2023-12-11 at 14.57.17.png>)
+![Alt text](<assets/Screenshot 2023-12-11 at 14.56.23.png>)
+![Alt text](<assets/Screenshot 2023-12-11 at 14.59.25.png>)
+![Alt text](assets/unnamed.png)
 
 ## Key Features
 Newly implemented features
