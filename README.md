@@ -6,7 +6,10 @@ A web application that acts as a centralized location for volunteers and employe
 
 ## Preview
 <img width="1440" alt="Screenshot 2023-12-11 at 16 18 58" src="https://github.com/sarihammad/United-For-Literacy/assets/63919507/e27299f3-f75e-4991-b48e-5e1a461aa930">
-![unnamed](https://github.com/sarihammad/United-For-Literacy/assets/63919507/97dab54e-d6db-42ec-b45b-70b6ec45f63e)
+
+![unnamed](https://github.com/sarihammad/United-For-Literacy/assets/63919507/63546638-c6f4-4106-b632-fe63818b452b)
+
+
 <img width="1440" alt="Screenshot 2023-12-11 at 16 15 44" src="https://github.com/sarihammad/United-For-Literacy/assets/63919507/6887cea7-66d5-4cc5-bb25-d928ba53fe6f">
 <img width="1439" alt="Screenshot 2023-12-11 at 16 17 20" src="https://github.com/sarihammad/United-For-Literacy/assets/63919507/7c39dd8e-56e9-4234-9c7a-fe3342caeee7">
 <img width="1440" alt="Screenshot 2023-12-11 at 16 15 57" src="https://github.com/sarihammad/United-For-Literacy/assets/63919507/d58ebb0c-cad1-46c9-ad5d-d2136d31a68f">
